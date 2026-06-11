@@ -1,0 +1,15 @@
+.banner {
+  position: relative;
+  min-height: 100vh;
+   z-index: 1;
+}
+.bannerBg {
+  position: absolute;
+  inset: 0;
+  background-image: url('/capa.png');
+  filter: blur(5px);
+  background-repeat: no-repeat;
+   background-size: cover;       
+  background-position: center; 
+  z-index: 0;
+}

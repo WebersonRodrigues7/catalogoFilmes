@@ -1,0 +1,29 @@
+.Header h1 {
+  font-size: 40px;
+  display: flex;
+ 
+}
+.Header h1 span {
+  color: #C62828;
+}
+.Header ul{
+  display: flex;
+list-style-type: none;
+gap: 20px;
+font-size: 20px;
+}
+.Header li {
+  border-bottom: 3px solid transparent;
+}
+.Header li:hover {
+  border-bottom: 3px solid #800020;
+  
+}
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    position: relative;
+  z-index: 1;
+}
+
